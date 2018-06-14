@@ -1,0 +1,59 @@
+# Extending Logistic regression to build neural networks
+## Neural Network with one hidden layer
+
+![](https://cdn-images-1.medium.com/max/1200/1*3HXyLvKVqd_6oVJuZl8BeQ.png)
+
+ ![](https://cdn-images-1.medium.com/max/1200/1*E5R4AUrT7Alj_m1TpjriVQ.png)
+
+Each of the node in the neural network corresponds to a Logistic Regression network. Its like taking taking logistic regression and repeating it.
+
+* * *
+
+#### Layers in a neural&nbsp;network&nbsp;
+
+The input features are collectively called as as the input layer. The layer in between is called as hidden layer and the at the end we have the output layer.&nbsp;
+
+ ![](https://cdn-images-1.medium.com/max/1600/1*3fA77_mLNiJTSgZFhYnU0Q.png)
+*Neural Network&nbsp;layers&nbsp;*
+
+The values for the hidden layers are not seen in the training data. The input layer is denoted as layer 0.&nbsp;
+
+* * *
+
+ ![](https://cdn-images-1.medium.com/max/1600/1*1vUhyrTcXCb1tOPmZJGyNw.png)
+*notation for multiple&nbsp;layers&nbsp;*
+
+The input layer X is also denoted as a[0]
+
+* * *
+
+Each node in the neural network represents 2 steps of computation. Its basically a repetition of logistic regression.
+
+ ![](https://cdn-images-1.medium.com/max/2000/1*iFz9mo-tQkOKdd_hrSKM9A.png)
+
+ ![](https://cdn-images-1.medium.com/max/1600/1*8G8ZKdK0QQ4YEIqzyVWGUQ.png)
+*representation of the computation of the highlighted node above, The subscript represents the node number and the superscript represents the layer&nbsp;number.*
+
+#### Vectorizing for one training&nbsp;example
+
+ ![](https://cdn-images-1.medium.com/max/1200/1*upmxF5Rg46Gstw71rG54xg.png)
+
+We can the use an expression similar to vectorization in Logistic Regression to vectorize the calculation of activations at various layers of the neural network.&nbsp;
+
+But this is for only one training example, we’ll see next on how to vectorize for n training examples.&nbsp;
+
+* * *
+
+#### Vectorizing for m training&nbsp;examples
+
+ ![](https://cdn-images-1.medium.com/max/1600/1*q0saLGu89dSlfph2jK9gnQ.png)
+*Unvectorized implementation for m training&nbsp;examples&nbsp;*
+
+That is how the Unvectorized implementation for m training examples looks like.&nbsp;
+
+ ![](https://cdn-images-1.medium.com/max/800/1*YiJbdfIf0sgTRH0lv4LXDA.png)
+
+ ![](https://cdn-images-1.medium.com/max/1200/1*vWhXfh68tq4RNQsd4B4vDQ.png)
+
+ ![](https://cdn-images-1.medium.com/max/800/1*umI54DguoFD1VXWT6_gNrQ.png)
+*1. Unvectorized activation calculation 2. Vectorized activation calculation 3. X representing vewctor with n features and m training examples and A representing activations for h hidden layer size and m training&nbsp;example*
