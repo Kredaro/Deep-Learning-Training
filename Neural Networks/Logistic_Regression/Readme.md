@@ -1,6 +1,6 @@
 # Logistic Regression
 
-What we need a algorithm which will help us classify the the input X into one of the 2 classes. Rather we need a probabilistic output about what are the chances that this is equal to one.
+What we need is a algorithm which will help us classify the  input X into one of the 2 classes. Rather we need a probabilistic output about what are the chances that this is equal to one.
 
 Given parameters w and b we cannot use Wt \* X + b&nbsp;, because this is linear and the output might be negative or a large number. We use the sigmoid function to change the inputs.
 
@@ -8,7 +8,7 @@ Given parameters w and b we cannot use Wt \* X + b&nbsp;, because this is linear
 
 The sigmoid function outputs a close to 0 for large negative values of z, and a value close to 1 for large positive values of z, but it’s always bound between 0 and 1.&nbsp;
 
-The objective is to learn the parameters W and b so that the Y^ becomes a good estimate of Y.&nbsp;
+The objective is to learn the parameters W and b so that the Y^ (predicted value) becomes a good estimate of Y (ground truth value).&nbsp;
 
 
 ## Logistic Regression cost&nbsp;function
@@ -23,19 +23,19 @@ Once we learn the parameters we can use the following equation to make the predi
 
 The loss or the error function tells us how good the learning algorithm is.
 
-## Why doesn’t the mean square error doesn't work&nbsp;?
+## Why doesn’t the mean square error work&nbsp;?
 
 Let’s see why this works,&nbsp;
 
  ![](https://cdn-images-1.medium.com/max/1600/1*87SGdLlQEVkEq_gH9KI6Dw.png)
 
-We have find the values W and b such that the loss is minimized.&nbsp;
+We have to find the values W and b such that the loss is minimized.&nbsp;
 
 Gradient descent takes advantage of the fact that loss function curve w.r.t the parameters W and b looks like this, we need to find the values W and b which corresponds to the minimum of the cost function J.
 
 Here is what we’ll do to find the optimal values for w and b,&nbsp;
 
-Initialize **W** and **b** for some initial values, and then the Gradient decent algorithm modifies the values of parameters such that the loss function starts moving in the direction of the steepest curve and eventually you’ll arrive at the parameters&nbsp;
+Initialize **W** and **b** for some initial values, and then the Gradient descent algorithm modifies the values of parameters such that the loss function starts moving in the direction of the steepest curve and eventually you’ll arrive at the parameters&nbsp;
 
  ![](https://cdn-images-1.medium.com/max/1600/1*laN3aseisIU3T9QTIlob4Q.gif)
 
@@ -59,7 +59,7 @@ The definition of derivative is the slope of the function at the given point.If 
 
 **Vectorization**
 
-Its the process removing explicit for loops. Its important that the code runs fast when you train on big dataset.&nbsp;
+It's the process of removing explicit for loops. It's important that the code runs fast when you train on big dataset.&nbsp;
 
 Dot product vectorized vs non-vectorized&nbsp;
 
@@ -68,7 +68,7 @@ Dot product vectorized vs non-vectorized&nbsp;
 
 Note: **Why is vectorized version faster?**
 
-Numpy takes much better advantage of CPU instructions like Simd for running the code in a parallel manner.
+Numpy takes better advantage of CPU instructions like Simd for running the code in a parallel manner.
 
  ![](https://cdn-images-1.medium.com/max/1600/1*ulFnFCXyPACAEmV_YWWEkg.png)
 
@@ -84,7 +84,7 @@ Numpy takes much better advantage of CPU instructions like Simd for running the 
  ![](https://cdn-images-1.medium.com/max/1600/1*zelqf-eT6o8G-FP4VrtDoQ.png)
 
  ![](https://cdn-images-1.medium.com/max/800/1*IXATGxjdcLPqfjCIln4JGA.png)
-*VECTORIZED ANDNON VECTORIZED GRADIENT&nbsp;DESCENT*
+*VECTORIZED AND NON VECTORIZED GRADIENT&nbsp;DESCENT*
 
 But you need a for-loop for number of iterations for which you want to run Gradient Descent.
 
