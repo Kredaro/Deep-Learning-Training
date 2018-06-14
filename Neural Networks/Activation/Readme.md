@@ -20,7 +20,7 @@ Without the activation function the output would be linear combination of the we
 
 #### The Tanh hyperbolic activation function
 
-The tanh activation is known to work better than the sigmoid function since the value of tanh ranges from -1 to 1, this helps the mean of activsation to be centered around 0 which inturn helps the training.
+The tanh activation is known to work better than the sigmoid function since the value of tanh ranges from -1 to 1, this helps the mean of activation to be centered around 0 which inturn helps the training.
 
 But sigmoid is a preferred choice for the output layer since we want the output to be a value between 0 and 1.
 
@@ -59,6 +59,10 @@ The gradient of RELU is 0 for negative Z values, this affects the training at ti
 - For z values less than 0 the RELU outputs 0, this at times slows down the training, the Leaky RELU helps solve this problem.
 
 A good exercise would be to try them all on a problem and then evaluate them on a validation set.&nbsp;
+* * *
+
+## Activation function for Regression problem
+Only the output layer can be set to linear activation function ( no activation) in case of Regression problem.
 
 * * *
 
