@@ -1,18 +1,17 @@
-Logistic Regression
+# Logistic Regression
 
 What we need a algorithm which will help us classify the the input X into one of the 2 classes. Rather we need a probabilistic output about what are the chances that this is equal to one.
 
 Given parameters w and b we cannot use Wt \* X + b&nbsp;, because this is linear and the output might be negative or a large number. We use the sigmoid function to change the inputs.
 
-Explain sigmoid:&nbsp;
+## Sigmoid Activation function:&nbsp;
 
 The sigmoid function outputs a close to 0 for large negative values of z, and a value close to 1 for large positive values of z, but it’s always bound between 0 and 1.&nbsp;
 
 The objective is to learn the parameters W and b so that the Y^ becomes a good estimate of Y.&nbsp;
 
-#### Why choose&nbsp;sigmoid?
 
-#### Logistic Regression cost&nbsp;function
+## Logistic Regression cost&nbsp;function
 
 To train W and b you need a cost function, in any training of parameters in supervised learning you need a cost function.
 
@@ -24,7 +23,7 @@ Once we learn the parameters we can use the following equation to make the predi
 
 The loss or the error function tells us how good the learning algorithm is.
 
-#### Why doesn’t the mean square error doesnt work&nbsp;?
+## Why doesn’t the mean square error doesn't work&nbsp;?
 
 Let’s see why this works,&nbsp;
 
