@@ -1,17 +1,12 @@
-# Logistic Regression
-
 What we need a algorithm which will help us classify the the input X into one of the 2 classes. Rather we need a probabilistic output about what are the chances that this is equal to one.
 
 Given parameters w and b we cannot use Wt \* X + b&nbsp;, because this is linear and the output might be negative or a large number. We use the sigmoid function to change the inputs.
-
-## Sigmoid Activation function:&nbsp;
 
 The sigmoid function outputs a close to 0 for large negative values of z, and a value close to 1 for large positive values of z, but it’s always bound between 0 and 1.&nbsp;
 
 The objective is to learn the parameters W and b so that the Y^ becomes a good estimate of Y.&nbsp;
 
-
-## Logistic Regression cost&nbsp;function
+#### Logistic Regression cost&nbsp;function
 
 To train W and b you need a cost function, in any training of parameters in supervised learning you need a cost function.
 
@@ -23,9 +18,11 @@ Once we learn the parameters we can use the following equation to make the predi
 
 The loss or the error function tells us how good the learning algorithm is.
 
-## Why doesn’t the mean square error doesn't work&nbsp;?
+#### Why doesn’t the mean square error doesnt work&nbsp;?
 
-Let’s see why this works,&nbsp;
+ ![](https://cdn-images-1.medium.com/max/2000/1*3dlUo8X8ldAtVP8RYL91Qg.png)
+
+ ![](https://cdn-images-1.medium.com/max/2000/1*ZigTbFXKuo5BAkxvGXdAmw.png)
 
  ![](https://cdn-images-1.medium.com/max/1600/1*87SGdLlQEVkEq_gH9KI6Dw.png)
 
@@ -53,7 +50,7 @@ The definition of derivative is the slope of the function at the given point.If 
 
 **Gradient descent on m training dataset**
 
- ![](https://cdn-images-1.medium.com/max/1600/1*qmpMZVNp8lCeeghEvuVGpQ.png)
+ ![](https://cdn-images-1.medium.com/max/2000/1*qmpMZVNp8lCeeghEvuVGpQ.png)
 
 * * *
 
@@ -79,12 +76,20 @@ Numpy takes much better advantage of CPU instructions like Simd for running the 
 
  ![](https://cdn-images-1.medium.com/max/1600/1*ehtMGTGkWKEu7v1cccFK7A.png)
 
+* * *
+
+#### FINDING DERIVATIVE
+
+ ![](https://cdn-images-1.medium.com/max/1600/1*A3bAXCC6uFzgNvSJTEGqnw.png)
+
+ ![](https://cdn-images-1.medium.com/max/1600/1*ABEwMXJT6NNJlbXfyG_Dfg.png)
+
  ![](https://cdn-images-1.medium.com/max/1600/1*2in60DubcoYR_j10iDqhNg.png)
 
  ![](https://cdn-images-1.medium.com/max/1600/1*zelqf-eT6o8G-FP4VrtDoQ.png)
 
  ![](https://cdn-images-1.medium.com/max/800/1*IXATGxjdcLPqfjCIln4JGA.png)
-*VECTORIZED ANDNON VECTORIZED GRADIENT&nbsp;DESCENT*
+*VECTORIZED ANDNON VECTORIZED GRADIENT&nbsp;DESCEN*
 
 But you need a for-loop for number of iterations for which you want to run Gradient Descent.
 
