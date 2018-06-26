@@ -12,6 +12,7 @@
   - [SVM Classifier](https://github.com/Kredoai/Deep-Learning-Training/tree/master/Machine_Learning/SVM)
 
 - Tensorflow
+  - [Basics](https://github.com/Kredoai/Deep-Learning-Training/tree/master/Tensorflow/Basics)
 
 - Keras
   - Neural Network
