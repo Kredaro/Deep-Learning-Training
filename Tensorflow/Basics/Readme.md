@@ -1,3 +1,5 @@
+[Link to Tensorflow Basics](https://colab.research.google.com/drive/1PnfaYREIdlzkPGLzvHfN0w1naNsFKA0E)
+
 ## Intro to tensorflow, linear regression: Build linear regression model using tensorflow to predict house&nbsp;price
 
 Howdy! Welcome to the 3rd blog of the series for Data science India conference, we began with the following couple of articles on building neural networks from scratch,
