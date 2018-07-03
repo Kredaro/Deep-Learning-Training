@@ -1,18 +1,18 @@
 # Deep learning training materials
-===
+
 ## Neural Networks
 - [Logistic Regression](https://github.com/Kredoai/Deep-Learning-Training/tree/master/Neural%20Networks/Logistic_Regression)
 - [Extending Logistic Regression to build a single layer Neural Network](https://github.com/Kredoai/Deep-Learning-Training/tree/master/Neural%20Networks/Neural%20Net%20One%20Hidden%20Layer)
 - [Activation functions](https://github.com/Kredoai/Deep-Learning-Training/tree/master/Neural%20Networks/Activation)
 - [Building Deep Neural Networks](https://github.com/Kredoai/Deep-Learning-Training/tree/master/Neural%20Networks/Deep_Neural_Network)
-===
+
 ## Convolutional Neural Networks
 - [Basics](https://github.com/Kredoai/Deep-Learning-Training/tree/master/Convolutional_Neural_Networks/Basics)
-===
+
 ## Recurrent Neural Networks
 - [LSTM](https://github.com/Kredoai/Deep-Learning-Training/tree/master/Recurrent_Neural_Networks/LSTM)
 - [Word2Vec](https://github.com/Kredoai/Deep-Learning-Training/tree/master/Recurrent_Neural_Networks/Word2Vec)
-===
+
 ## Machine Learning
 - Linear Regression
   - [Linear regression from scratch](https://github.com/Kredoai/Deep-Learning-Training/tree/master/Machine_Learning/Linear_Regression/build_from_scratch)
@@ -21,12 +21,12 @@
 - [Decision Trees](https://github.com/Kredoai/Deep-Learning-Training/tree/master/Machine_Learning/Decision_Tree)
     - [Titanic survivor project](https://github.com/Kredoai/Deep-Learning-Training/tree/master/Machine_Learning/Decision_Tree/Titanic_Survivor)
 - [Performance metrics](https://github.com/Kredoai/Deep-Learning-Training/tree/master/Machine_Learning/Performance)  
-===
+
 ## Tensorflow
 - [Basics](https://github.com/Kredoai/Deep-Learning-Training/tree/master/Tensorflow/Basics)
 - [Deep Neural Networks with Dropout and RELU](https://github.com/Kredoai/Deep-Learning-Training/tree/master/Tensorflow/Deep_Neural_Nets_Dropout_RELU)
 
-===
+
 ## Keras
 - Neural Network
   - [Bank Customer Churning](https://github.com/Kredoai/Deep-Learning-Training/tree/master/Keras/Neural_Networks/bank_customer_churning)
