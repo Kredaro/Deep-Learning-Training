@@ -1,3 +1,18 @@
+## Word2Vec
+Semantic relationships between the words has be someway captured so that it could act as a enriched representation 
+than what one hot vectors could represent. 
+
+The distance between the vectors in one hot representation are all the same, it doesn't capture the relationship between certain words, 
+
+For example consider the 4 following words, 
+
+```
+Dog, puppy, truck, car 
+```
+
+Dog and puppy, truck and car are related to each other. What if we could have feature rich representation where the distance between the vectors of related wrods are closer, this rich representation of words could serve as better. This feature representation can be achieved using a 300/600 or higher dimension vector. 
+
+
 ## The Model
 
 The skip-gram neural network model is actually surprisingly simple in its most basic form; I think it’s the all the little tweaks and enhancements that start to clutter the explanation.
