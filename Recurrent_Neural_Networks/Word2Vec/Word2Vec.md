@@ -12,6 +12,10 @@ Dog, puppy, truck, car
 
 Dog and puppy, truck and car are related to each other. What if we could have feature rich representation where the distance between the vectors of related wrods are closer, this rich representation of words could serve as better. This feature representation can be achieved using a 300/600 or higher dimension vector. 
 
+Here is the 2D representation of the 300 dimensional vector representation for the words, you can see in the image that the words which are similar in meaning are close to each other on the plot.
+
+![The word2Vec representation plot](https://github.com/Kredoai/Deep-Learning-Training/blob/master/Recurrent_Neural_Networks/Word2Vec/images/plot-vec.png)
+
 
 ## The Model
 
