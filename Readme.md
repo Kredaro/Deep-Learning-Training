@@ -13,7 +13,7 @@
 - [Basics](https://github.com/Kredoai/Deep-Learning-Training/tree/master/Recurrent_Neural_Networks/Basics)
 - [LSTM](https://github.com/Kredoai/Deep-Learning-Training/tree/master/Recurrent_Neural_Networks/LSTM)
 - [Word2Vec](https://github.com/Kredoai/Deep-Learning-Training/tree/master/Recurrent_Neural_Networks/Word2Vec)
-- [Seq2Seq](https://github.com/Kredoai/Deep-Learning-Training/tree/master/Recurrent_Neural_Networks/Seq2Seq)
+- [Seq2Seq and attention mechanism](https://github.com/Kredoai/Deep-Learning-Training/tree/master/Recurrent_Neural_Networks/Seq2Seq)
 
 ## Machine Learning
 - Linear Regression
