@@ -27,6 +27,7 @@
 ## Tensorflow
 - [Basics](https://github.com/Kredoai/Deep-Learning-Training/tree/master/Tensorflow/Basics)
 - [Deep Neural Networks with Dropout and RELU](https://github.com/Kredoai/Deep-Learning-Training/tree/master/Tensorflow/Deep_Neural_Nets_Dropout_RELU)
+- [Three layer Neural Network for MNSIT Classification](https://github.com/Kredoai/Deep-Learning-Training/tree/master/Tensorflow/nn_two_hidden_layer_adam_mnsit)
 
 
 ## Keras
